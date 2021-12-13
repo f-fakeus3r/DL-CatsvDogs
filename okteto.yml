@@ -1,0 +1,8 @@
+name: tensorflow-notebook
+image: tensorflow/tensorflow:1.12.0-devel-py3
+workdir: /data
+command: ["jupyter", "notebook", "--allow-root"]
+environment:
+  - PASSWORD=grupo3
+persistentVolume:
+  enabled: true

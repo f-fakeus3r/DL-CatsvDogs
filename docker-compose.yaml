@@ -1,0 +1,12 @@
+version: "2.1"
+services:
+  jupyter:
+    image: jupyter/tensorflow-notebook:latest
+    restart: "no"
+    volumes:
+      - ./dataset:/home/jovyan/dataset
+    ports:
+      - "8888:8888"
+    environment:
+      NB_UID: ${UID}
+      NB_GID: ${GID}
