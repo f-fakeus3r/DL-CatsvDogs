@@ -44,7 +44,7 @@ Disponível em: (https://www.tensorflow.org/datasets/catalog/cats_vs_dogs)
 - Docker
 - Jupyter Notebook
 
-# Preração das imagens e atributos para treino
+# Preparação das imagens e atributos para treino
 
 ## Labels
 
